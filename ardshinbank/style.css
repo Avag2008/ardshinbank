@@ -1,0 +1,340 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner {
+    max-width: 1920px;
+    width: 100%;
+    height: 120px;
+    background-image: url(/images/1920x120.png);
+    border: 1px solid;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+img {
+    position: absolute;
+}
+
+.logo {
+    left: 0;
+    width: 8%;
+}
+
+.cash {
+    left: 6.8%;
+    width: 15%;
+    top: 54%;
+}
+
+.text1 {
+    left: 7%;
+    top: 7%;
+    width: 14%;
+}
+
+.ten {
+    width: 21%;
+    left: 25%;
+    animation: pulse 4s infinite;
+}
+
+.logos {
+    width: 42%;
+    left: 43%;
+    height: 92%;
+}
+
+.button {
+    left: 87.5%;
+    width: 14%;
+    top: 11%;
+}
+
+.text2 {
+    left: 84%;
+    top: 39%;
+    width: 17%;
+}
+
+@media screen and (max-width: 1920px) {
+    .logo {
+        left: 27px;
+        width: 6%;
+    }
+
+    .logos {
+        width: 26%;
+        left: 51%;
+    }
+
+    .ten {
+        width: 19%;
+        left: 29%;
+    }
+
+    .text2 {
+        left: 80%;
+        top: 40%;
+        width: 20%;
+    }
+
+    .button {
+        left: 86%;
+        width: 14%;
+        top: 9%;
+    }
+
+    .cash {
+        left: 6.8%;
+        width: 15%;
+        top: 54%;
+    }
+
+    .text1 {
+        left: 7%;
+        top: 7%;
+        width: 14%;
+    }
+}
+
+@media screen and (max-width :1500px) {
+    .text1 {
+        left: 7%;
+        top: 16%;
+        width: 13%;
+    }
+
+    .cash {
+        left: 6.8%;
+        width: 14%;
+        top: 50%;
+    }
+
+    .logos {
+        width: 33%;
+        left: 47%;
+    }
+
+    .button {
+        left: 84%;
+        width: 15%;
+        top: 14%;
+    }
+
+    @keyframes pulse {
+        0% {scale: 0.8;}
+        10%{scale: 1;}
+        20%{scale: 0.8;}
+        30% {scale: 1;}
+        40% {scale: 0.8;}
+        50%{scale: 1;}
+        60% {scale: 0.8;}
+        70%{scale: 1;}
+        80%{scale: 0.8;}
+        90% {scale: 1;}
+        100% {scale: 0.8;}
+    }
+
+    .text2 {
+        left: 79.2%;
+        top: 40%;
+        width: 19%;
+    }
+
+    .ten {
+        width: 19%;
+        left: 24%;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .text1 {
+        left: 7%;
+        top: 18%;
+        width: 13%;
+    }
+
+    .text2 {
+        left: 80.5%;
+        top: 42%;
+        width: 18%;
+    }
+}
+
+@media screen and (max-width : 1100px) {
+    .text1 {
+        left: 7%;
+        top: 25%;
+        width: 13%;
+    }
+
+    .button {
+        left: 84%;
+        width: 15%;
+        top: 19%;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .text1 {
+        left: 7.5%;
+        top: 28%;
+        width: 14%;
+    }
+
+    .cash {
+        left: 7.5%;
+        width: 14%;
+        top: 50%;
+    }
+
+    .logos {
+        width: 38%;
+        left: 44%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .logo {
+        left: 8px;
+        width: 6%;
+    }
+
+    .text1 {
+        left: 5.5%;
+        top: 32%;
+        width: 14%;
+    }
+
+    .cash {
+        left: 5.5%;
+        width: 14%;
+        top: 50.2%;
+    }
+
+    .ten {
+        width: 19%;
+        left: 22%;
+    }
+
+    .logos {
+        width: 44%;
+        left: 40%;
+    }
+
+    .ten {
+        width: 19%;
+        left: 21%;
+    }
+
+    .button {
+        left: 84%;
+        width: 15%;
+        top: 27%;
+    }
+}
+
+@media screen and (max-width :500px) {
+    .logos {
+        width: 47%;
+        left: 33%;
+        height: 51%;
+    }
+
+    .text1 {
+        left: 9%;
+        top: 24%;
+        width: 22%;
+    }
+
+    .cash {
+        left: 8.5%;
+        width: 23%;
+        top: 44.2%;
+    }
+
+    .ten {
+        width: 19%;
+        left: 7%;
+        top: 60%;
+    }
+
+    .text2 {
+        left: 80.5%;
+        top: 49%;
+        width: 18%;
+    }
+
+    .button {
+        left: 81%;
+        width: 20%;
+        top: 35%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .text1 {
+        left: 15%;
+        top: 20%;
+        width: 22%;
+    }
+
+    .cash {
+        left: 15%;
+        top: 36%;
+        width: 23%;
+    }
+
+    .ten {
+        width: 26%;
+        left: 12%;
+        top: 50%;
+    }
+
+    .logo {
+        left: 2px;
+        width: 17%;
+    }
+
+    .logos {
+        width: 33%;
+        left: 41%;
+        height: 29%;
+    }
+
+    .button {
+        left: 80.3%;
+        top: 37%;
+        width: 20%;
+    }
+
+    .text2 {
+        top: 48%;
+        width: 20%;
+        left: 79%;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .text1 {
+        left: 14%;
+        top: 20%;
+        width: 27%;
+    }
+
+    .cash {
+        left: 14%;
+        top: 36%;
+        width: 29%;
+    }
+
+    .logos {
+        width: 33%;
+        left: 45%;
+        height: 29%;
+    }
+}
